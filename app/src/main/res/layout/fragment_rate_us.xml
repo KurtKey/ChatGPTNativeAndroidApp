@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:id="@+id/rparent"
+    >
+
+    <ImageView
+        android:id="@+id/rat_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/rateusnow"/>
+    <Button
+        android:id="@+id/rat_us_now"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#f89624"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="Rate Us"
+        android:textSize="30sp"
+        android:textColor="#5e5f5f"
+        />
+
+
+</RelativeLayout>
